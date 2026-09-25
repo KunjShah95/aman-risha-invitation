@@ -1,3 +1,16 @@
-/.claude
-/.playwright-mcp
+# Dependencies
 node_modules/
+
+# Build output
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Tooling and local files
+.claude/
+.playwright-mcp/
+.DS_Store
+Thumbs.db
